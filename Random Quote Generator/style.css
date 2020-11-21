@@ -1,0 +1,56 @@
+body {
+  font-family: sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #9CAFB7;
+}
+#centered-h1 {
+  text-align: center;
+  color: #191919;
+}
+#quote-box {
+  margin: auto;
+  background-color: white;
+  padding: 0.23em 1.55em 1.55em 1.55em;
+  border-radius: 10px;
+  background-color: #f2f2f2;
+}
+.center {
+  margin:auto;
+}
+#text {
+  font-size: 1.5em;
+  color: #191919;
+  font-weight: 700;
+}
+#author {
+  color: #191919;
+}
+.cool-button {
+  padding: 10px;
+  border-radius: 3px;
+  color: #191919 !important;
+  background-color: #EAD2AC;
+  border: none;
+  transition: 0.3s
+}
+.cool-button:hover {
+  background-color: #FE938C;
+  cursor: pointer;
+}
+.cool-button:active, .cool-button:focus {
+  border: none;
+  outline: none;
+}
+#tweet-quote {
+}
+#tweet-quote:hover {
+}
+a {
+  color: #1C2222;
+  text-decoration: none;
+}
+.hidden-text {
+  visibility: hidden;
+}
